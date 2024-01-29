@@ -14,5 +14,38 @@
         <li>Alex Song</li>
         <li>Cuenca</li>
     </ol>    
+    <section id="p0">
+        <h3>1) ¿C&uacute;al de estos pilotos gan&oacute; alg&uacute;n t&iacute;tulo con Ferrari?</h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Fernando Alonso
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuesta(0,this)">Sebastian Vettel
+        </label>    
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuesta(0,this)">Kimi Raikkonen
+        </label>    
+        <label>
+            <input type="radio" value="4" name="p0" onclick="respuesta(0,this)">Alain Prost
+        </label>    
+    </section>
+    <section id="p1">
+        <h3>2) ¿Que dorsal utiliza actualmente George Russell</h3>
+        <label>
+            <input type="radio" value="1" name="p1" onclick="respuesta(1,this)">77
+        </label>
+        <label>
+            <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">63
+        </label>    
+        <label>
+            <input type="radio" value="3" name="p1" onclick="respuesta(1,this)">89
+        </label>    
+        <label>
+            <input type="radio" value="4" name="p1" onclick="respuesta(1,this)">47
+        </label>    
+    </section>
+    <button onclick="corregir()">CORREGIR</button>
+    <h2> Aciertos: <span id="resultado"></span> </h2>
+    <script src="AlumnoJavaScript.js"></script>
 </body>
 </html>
