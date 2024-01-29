@@ -1,0 +1,10 @@
+*{
+    background-color: bisque;
+    color: blue;
+    padding: 20px;
+}
+img{
+    width: 200px;
+    height: auto;
+    margin-left: 45%;
+}
