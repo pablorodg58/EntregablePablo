@@ -11,3 +11,8 @@ img{
 section{
     text-align: center;
 }
+h3{
+    color: aquamarine;
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
